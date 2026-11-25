@@ -1,0 +1,32 @@
+# .NET build & IDE artifacts
+bin/
+obj/
+out/
+.vs/
+.idea/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+*.DotSettings.user
+
+# Test results & coverage
+TestResults/
+coverage*/
+*.trx
+*.coverage
+
+# Guides & extracted text files (keep README.md!)
+*.txt
+*.md
+!README.md
+
+# Secrets & local overrides
+appsettings.*.Local.json
+.env
+*.pfx
+*.key
+
+# OS files
+.DS_Store
+Thumbs.db
